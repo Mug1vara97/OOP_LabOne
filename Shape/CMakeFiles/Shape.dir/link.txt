@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/Shape.dir/main.cpp.o CMakeFiles/Shape.dir/shape.cpp.o -o Shape 
