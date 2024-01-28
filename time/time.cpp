@@ -1,6 +1,5 @@
 #include "time.hpp"
 #include <iostream>
-#include <stdexcept>
 
 Time::Time() {
     getCurrentTime();
