@@ -11,16 +11,10 @@ Time::Time(int hours, int minutes, int seconds) {
 }
 
 void Time::getCurrentTime() {
-    // Получение текущего времени и сохранение его в объекте Time
-    // ...
-    // Пример:
-    // hours = текущие часы;
-    // minutes = текущие минуты;
-    // seconds = текущие секунды;
+
 }
 
 void Time::setTime(int hours, int minutes, int seconds) {
-    // Проверка корректности значений часов, минут и секунд
     if (hours < 0 || hours > 23 || minutes < 0 || minutes > 59 || seconds < 0 || seconds > 59) {
         throw std::invalid_argument("Invalid time value");
     }
@@ -32,20 +26,14 @@ void Time::setTime(int hours, int minutes, int seconds) {
 
 void Time::addHours(int hours) {
     this->hours += hours;
-    // Проверка и корректировка значений часов
-    // ...
 }
 
 void Time::addMinutes(int minutes) {
     this->minutes += minutes;
-    // Проверка и корректировка значений минут и часов
-    // ...
 }
 
 void Time::addSeconds(int seconds) {
     this->seconds += seconds;
-    // Проверка и корректировка значений секунд, минут и часов
-    // ...
 }
 
 int Time::toSeconds() {
